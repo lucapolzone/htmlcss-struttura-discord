@@ -73,3 +73,11 @@ header {
 
 /* MAIN */
 
+main section {
+  background-color: #d3d3d3;
+  padding: 60px 0;
+}
+
+main section:nth-child(odd) {
+  background-color: #fff;
+}

@@ -97,10 +97,3 @@ main section:nth-child(even) {
   background-color: #ffc0cb;
 }
 
-main section:nth-child(even) .main-content {
-  flex-basis: 40%;  
-}
-
-main section:nth-child(even) .sidebar {
-  flex-basis: 60%;  
-}

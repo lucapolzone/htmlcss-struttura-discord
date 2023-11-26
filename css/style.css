@@ -69,12 +69,12 @@
 /* MAIN */
 
 main section {
-  background-color: #d3d3d3;
+  background-color: #fff;
   padding: 60px 0;
 }
 
-main section:nth-child(odd) {
-  background-color: #fff;
+main section:nth-child(even) {
+  background-color: #d3d3d3;
 }
 
 .wrapper {
@@ -96,3 +96,4 @@ main section:nth-child(odd) {
   height: 600px;
   background-color: #ffc0cb;
 }
+

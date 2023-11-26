@@ -102,10 +102,20 @@ main section:nth-child(even) {
   height: 900px;
 }
 
+
+/* FOOTER */
+
+
 footer {
   background-color: #23272a;
-  padding: 10px 0;
+  padding-top: 10px;
 }
+
+footer section:first-child {
+  border-bottom: 2px solid #d3d3d3;
+  padding-bottom: 20px;
+}
+
 
 footer .wrapper {
   display: flex;
@@ -130,4 +140,19 @@ footer .grid .column {
   flex-basis: 25%;
   border: 2px dashed #ffffff;
 
+}
+
+footer .bottom {
+  height: 80px;
+  margin-top: 20px;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7fffd4;
+}
+
+footer .bottom div {
+  padding: 10px;
+  background-color: #ffb6c1;
+  font-size: 1.2rem;
 }

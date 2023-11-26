@@ -97,3 +97,37 @@ main section:nth-child(even) {
   background-color: #ffc0cb;
 }
 
+.big.wrapper {
+  background-color: green;
+  height: 900px;
+}
+
+footer {
+  background-color: #23272a;
+  padding: 10px 0;
+}
+
+footer .wrapper {
+  display: flex;
+}
+
+footer .sidebar {
+  flex-basis: 30%;
+}
+
+footer #social {
+  background-color: #f08080;
+}
+
+footer .grid {
+  flex-basis: 70%; 
+  background-color: #20b2aa;
+  height: 600px;
+  display: flex;
+}
+
+footer .grid .column {
+  flex-basis: 25%;
+  border: 2px dashed #ffffff;
+
+}
